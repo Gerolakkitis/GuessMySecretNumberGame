@@ -99,7 +99,7 @@ namespace GuessMe
             }
             else
             {
-                Console.WriteLine("{0}? Ha, nice try - too high! \n", userGuess);
+                Console.WriteLine("{0}? Too bad, way too high! \n", userGuess);
             }
             Thread.Sleep(750);
         }
